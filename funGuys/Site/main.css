@@ -1,0 +1,184 @@
+html{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   height: 100px;
+    width: 100%;
+}
+
+::selection {
+    background: #3434FF; /* WebKit/Blink Browsers */
+}
+
+.wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+#ball {
+    width: 60px;
+    height: 60px;
+    background: none;
+    border: 1px solid grey;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -10px 0 0 -10px;
+    pointer-events: none;
+}
+
+.innercontainer{
+    background-color: #161616;
+    height: 800px;
+    margin: 5%;
+    position: relative;
+}
+
+#name{
+    color: red;
+    font-family: Inconsolata;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin-top: -20px;
+    justify-content: center;
+}
+
+.svg--logo{
+    justify-content: right;
+
+}
+
+#svg--logo{
+    width: 10%;
+    z-index: -20;
+}
+
+#welcome{
+    padding-top: 100px;
+    color: white;
+    font-family: PT Serif Caption;
+    font-size: 60px;
+    letter-spacing: 20px;
+    z-index: 800;
+
+}
+
+#square--icon{
+    margin: 0 auto;
+    margin-top: -170px;
+    width: 100%;
+    height: 100%;
+}
+
+.square--size{
+    margin-left: 100px;
+    width: 50%;
+    height: 50%;
+    z-index: -20;
+}
+
+#portfolio{
+    letter-spacing: 10px;
+    font-family: Inconsolata;
+    color: #7d8fa3;
+    margin-left: -8px;
+    margin-right: 8px;
+}
+
+.vertical--text{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+   margin-left: 35px;
+}
+
+.flex--item{
+    width: 100%;
+    display: flex;
+
+}
+
+.firstSection{
+    width: 100%;
+    z-index: 30;
+    display: flex;
+    justify-content: center;
+}
+
+.secondSection{
+    width: 100%;
+    z-index: 30;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.p5Canvas{
+    width: 100%;
+}
+
+.center{
+    justify-content: center;
+}
+
+#social--icons{
+    margin-top: -500px;
+}
+
+#fourth--section-margin{
+    margin-top: 150px;
+}
+
+#margin--top{
+    margin-top: 100px;
+}
+
+.web--development{
+    letter-spacing: 10px;
+    color: grey;
+    font-family: Inconsolata;
+    text-align:center;
+    font-size: 20px;
+}
+
+.thirdSection{
+    width: 100%;
+    z-index: 30;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    z-index: 30;
+    color: grey;
+}
+
+.fourthSection{
+    width: 100%;
+    z-index: 30;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.page--wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fullcontainer {
+    background: white;
+    display: flex;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}

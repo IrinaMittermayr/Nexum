@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mySite</title>
+    <link href="Quiz/quizstyle.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald|PlayfairDisplay">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Anton|Cinzel+Decorative|Quicksand|Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Archivo+Narrow|Black+Ops+One|Homemade+Apple|Indie+Flower|Marvel|Righteous|Roboto+Condensed|Song+Myung|Squada+One|Teko|Unica+One" rel="stylesheet">
+</head>
+
+
+<body>
+    <div id="containter">
+        <div class="grid">
+            <div id="quiz">
+                <div class="container-1">
+                    <p id="answer1">Answer Honestly</p>
+                    <hr class="horizontal-line">
+                    <p id="answer2" >Answer Honestly</p>
+                </div>
+                <div class="container-players">
+                    <h1 class="secondPlayer bluesies" id="left" >PLAYER<br> ONE</h1>
+                    <h1 class="secondPlayer whitesies" id="right">PLAYER <br> TWO</h1>
+                </div>
+                <div class="container-counter">
+                    <hr class="thiccLine">
+                    <p class="counter">0/16</p>
+                    <hr class="thiccLine">
+                </div>
+                <!--<p>If man is to find meaning in his existence, he must find it in his interpersonal living. </p>-->
+                <p id="question"></p>
+
+                <div class="buttons">
+                    <button id="btn0"><span id="choice0">hello</span></button>
+                    <button id="btn1"><span id="choice1"></span></button>
+                    <button id="btn2"><span id="choice2"></span></button>
+                    <button id="btn3"><span id="choice3"></span></button>
+                </div>
+
+
+                <footer>
+                    <!--<p id="progress">Question x of y.</p>-->
+                </footer>
+            </div>
+        </div>
+        <div id="webgl-container"></div>
+    </div>
+</body>
+
+<script src="Quiz/question.js"></script>
+<script src="Quiz/Answer.js"></script>
+<script src="Quiz/player.js"></script>
+<script src="Quiz/quiz_contoller.js"></script>
+<script src="Quiz/app.js"></script>
+
+<script src="../js/three.js-master/build/three.js"></script>
+<script src="../js/jquery/jquery-3.3.1.min.js"></script>
+<script src="../js/datGui/dat.gui-master/build/dat.gui.js"></script>
+<script src="../js/three.js-master/examples/js/controls/OrbitControls.js"></script>
+<script src="../js/three.js-master/examples/js/loaders/MTLLoader.js"></script>
+<script src="../js/three.js-master/examples/js/loaders/OBJLoader.js"></script>
+<script src="../js/ThreeCSG-master"></script>
+
+<!--<script src="SceneManager.js"></script>-->
+<script src="colors.js"></script>
+<script src="Sinecurve.js"></script>
+<script src="PoitGroup.js"></script>
+<script src="PlayerSPhere"></script>
+<script src="Particle.js"></script>
+<script src="sphere.js"></script>
+<script src="curves.js"></script>
+<script src="curves.js"></script>
+<script src="calcNumbers.js"></script>
+
+
+</html>
+

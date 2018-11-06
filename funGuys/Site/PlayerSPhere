@@ -1,0 +1,45 @@
+
+
+class PlayerSPhere{
+
+
+    constructor(scale, posx, posy, posz, color1, color2, geometry){
+
+        this.sphereMaterial = new THREE.MeshPhongMaterial({
+            color      : new THREE.Color("#fff"),
+            emissive   : color1,
+            shininess  : color2,
+            shininess  :  10,
+            shading    :  THREE.FlatShading,
+            transparent: 1,
+            opacity    : 1,
+            side 	   : THREE.DoubleSide,
+            fog: new THREE.Fog( colors[4], 0, 10000 )
+
+
+        });
+
+
+
+
+
+        this.sphereGeometry = new THREE.TetrahedronGeometry( 10, geometry);
+
+
+
+
+        this.sphereGeometry.side = THREE.DoubleSide;
+        this.sphere = new THREE.Mesh(this.sphereGeometry, this.sphereMaterial);
+
+        this.sphere.position.x = posx;
+        this.sphere.position.y = posy;
+        this.sphere.position.z = posz;
+
+        this.sphere.scale.x = scale;
+        this.sphere.scale.y = scale;
+        this.sphere.scale.z = scale;
+
+
+    }
+
+}

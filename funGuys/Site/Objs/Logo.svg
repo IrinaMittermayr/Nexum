@@ -1,0 +1,13 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: red;
+      }
+    </style>
+  </defs>
+  <title>Logo</title>
+  <rect class="cls-1" width="13" height="78"/>
+  <rect class="cls-1" x="30" y="45" width="13" height="33"/>
+  <rect class="cls-1" x="60" width="13" height="78"/>
+</svg>

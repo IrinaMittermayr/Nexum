@@ -1,0 +1,267 @@
+
+
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bluesies{
+    color: #4568FF; !important;
+}
+
+.whitesies{
+    color: white;
+}
+
+.container-players{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    color:white;
+    font-size: 1em;
+    font-family: "Letter Gothic Std";
+}
+
+.container-1 #answer1{
+
+    margin-right: 20px;
+}
+
+.container-1 #answer2{
+    margin-left: 20px;
+}
+
+
+
+.counter{
+    font-size: 4em;
+    margin-left:40px;
+    margin-right:40px;
+    font-family: "Letter Gothic Std";
+}
+
+hr {
+    margin-left: 0;
+    margin-right: 0;
+    width:200px;
+    flex-grow: 1;
+    height: 0px;
+    margin-top: 25px;
+}
+
+
+.container-counter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color:white;
+    align-items: baseline;
+    margin-bottom: 100px;
+    margin-top: -80px;
+
+}
+
+body{
+    background: #1b1c1e;
+    background-size: 100%;
+    height: 100%;
+}
+
+.grid{
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    /*margin-top: 50px;*/
+    padding: 50px 50px 50px 50px;
+    /*border-radius: 30px;*/
+
+    /*border: 15px solid forestgreen;  palevioletred
+       background-color: #0000cc;*/
+    top:0;
+    z-index: 10;
+
+}
+
+.fullwidth{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.none{
+    display: none;
+
+}
+
+
+.buttonResume:hover{
+    background: #4568FF;
+}
+
+.buttonResume{
+
+    font-family: "Marvel" !important;
+    margin: 0 auto;
+    color:white;
+    border: 4px solid white;
+    font-size: 20px;
+    padding: 10px 20px;
+    z-index: 20;
+    cursor: pointer;
+    margin-top: 400px;
+    letter-spacing: 10px;
+
+    background: none;
+    width: 100%;
+
+    height: 120px;
+}
+
+.displayNone{
+    display: none;
+}
+
+body{
+
+    width:100%;
+    height: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    /*background: linear-gradient(blue, tomato);*/
+    /*background: none;*/
+
+}
+
+.quiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#webgl-container{
+    position: absolute;
+    top: 0;
+}
+
+.container{
+    position:relative;
+}
+
+#webgl-container{
+    position: absolute;
+}
+
+
+.line{
+    opacity: 70%;
+    width: 50%;
+    border: 10px solid #4568FF;
+    border-radius: 20px;
+    z-index: 12;
+    margin-top: -620px;
+
+}
+
+.Background{
+    width: 60%;
+    margin-left: 250px;
+    height: 700px;
+    margin-top: -450px;
+    z-index: 0;
+    background: none;
+    border-radius: 40px;
+   /* background-image: url(Asset_2.png);*/
+}
+
+.grid h1{
+    font-family: "Marvel";
+    opacity: 80%;
+
+    font-size: 6em;
+    text-align: center;
+    font-weight: 800;
+    -webkit-text-stroke-width: 6px;
+
+
+    letter-spacing: 10px;
+}
+
+.buttons{
+    margin-top: 30px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    font-family: "Letter Gothic Std";
+}
+
+#secondPlayer{
+    color:#4568FF;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 0px;
+    font-family: "Letter Gothic Std";
+}
+
+#right{
+    text-align: left;
+}
+
+#left{
+    text-align: left;
+}
+
+.grid #question{
+    font-family: "Letter Gothic Std";
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: -90px;
+}
+
+.addBackground{
+    background: tomato;
+}
+
+
+
+
+#btn0, #btn1, #btn2, #btn3{
+    border: 4px solid #4568FF;
+    font-family: "Marvel"; !important;
+    background: none;
+    width: 100%;
+    font-size: 20px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 20px;
+    color:white;
+    height: 120px;
+
+}
+
+#btn0>span, #btn1 >span, #btn2 >span, #btn3 >span{
+    background: none;
+}
+
+#progress{
+    color: #4568FF;
+    font-size: 18px;
+    letter-spacing: 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover{
+    cursor:pointer;
+    background-color: #4568FF;
+    outline: 0;
+}
